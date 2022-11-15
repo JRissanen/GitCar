@@ -41,12 +41,14 @@ Komento oli kuitenkin poistanut README.md-tiedostosta tekstipätkän "###Doh! ty
 
 __d) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "car" (auto). Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, suosittelen tekemään README.md ja vapaista lisensseistä itse tykkään GPLv3 eli GNU General Public License, version 3)__
 
-Aloitin tekemällä GitCar-nimisen uuden repositoryn.
+Aloitin tekemällä GitCar-nimisen uuden repositoryn. Valistin "public" vaihtoehdon, sekä lisäsin README.md-tiedoston ja </br>
+GNU General Public License, version 3-lisenssin.
 
-![Screenshot 2022-11-15 154756](https://user-images.githubusercontent.com/116954333/201944236-25a8317f-21df-43f5-999a-bdf9cbe16b20.png)
+![Screenshot 2022-11-15 162928](https://user-images.githubusercontent.com/116954333/201944757-998acc8b-8981-4536-918b-4e0c20497dbe.png)
 
 
 
+__e) Dolly. Kloonaa edellisessä kohdassa tehty varasto itsellesi, tee muutoksia, puske ne palvelimelle, ja näytä, että ne ilmestyvät weppiliittymään.__
 
 
 
