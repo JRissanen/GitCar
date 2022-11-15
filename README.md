@@ -9,7 +9,9 @@ Aloitin tekemällä kansion komennolla: `git init GitCat`. </br>
 Sitten siirryin uuteen kansioon ja tein nano-tekstieditorilla README.md-tiedoston: `nano README.md`. </br>
 Käytin komentoa: `git add .` lisätäkseni tekemäni muutokset ja komentoa: `git commit` tallentaakseni ne. </br>
 
-Sähköpostin ja nimen sain lisättyä komennoilla: `git config --global user.email "<sähköposti>"` ja `git config --global user.name "<oma nimi>"`. </br>
+Sähköpostin ja nimen sain lisättyä komennoilla: `git config --global user.email "<sähköposti>"` ja </br>
+`git config --global user.name "<oma nimi>"`. 
+
 Tarkistin vielä sähköpostin ja nimen komennolla: `git config --global --list`.
 
 Tein vielä lisää muutoksia README.md-tiedostoon nanolla. </br>
@@ -23,7 +25,7 @@ Lisäsin README.md-tiedostoon tekstipätkän "###Doh! tyhmä muutos". </br>
 
 ![Screenshot 2022-11-15 153330](https://user-images.githubusercontent.com/116954333/201940895-6a362c2c-75c5-4a01-995d-a0353cf9ca1c.png)
 
-Sitten käytin komentoa: `git add .` ja  yritin tarkistaa näkyisikö muutos komennolla: `git log --patch`, mutta ei näkynyt, koska en käyttänyt `git commit`-komentoa. </br>
+Sitten käytin komentoa: `git add .` ja  yritin tarkistaa näkyisikö muutos komennolla: `git log --patch`, mutta ei näkynyt, koska en käyttänyt commit-komentoa.
 
 ![Screenshot 2022-11-15 153904](https://user-images.githubusercontent.com/116954333/201942850-9ffeeee9-4748-45dc-99d2-0843cad47764.png)
 
