@@ -41,8 +41,7 @@ Komento oli kuitenkin poistanut README.md-tiedostosta tekstipätkän "###Doh! ty
 
 __d) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "car" (auto). Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, suosittelen tekemään README.md ja vapaista lisensseistä itse tykkään GPLv3 eli GNU General Public License, version 3)__
 
-Aloitin tekemällä GitCar-nimisen uuden repositoryn. Valistin "public" vaihtoehdon, sekä lisäsin README.md-tiedoston ja </br>
-GNU General Public License, version 3-lisenssin.
+Aloitin tekemällä GitCar-nimisen uuden repositoryn. Valistin "public" vaihtoehdon, sekä lisäsin README.md-tiedoston </br> ja GNU General Public License, version 3-lisenssin.
 
 ![Screenshot 2022-11-15 162928](https://user-images.githubusercontent.com/116954333/201944757-998acc8b-8981-4536-918b-4e0c20497dbe.png)
 
@@ -50,7 +49,19 @@ GNU General Public License, version 3-lisenssin.
 
 __e) Dolly. Kloonaa edellisessä kohdassa tehty varasto itsellesi, tee muutoksia, puske ne palvelimelle, ja näytä, että ne ilmestyvät weppiliittymään.__
 
+Aloitin tekemällä uuden ssh-avaimen komennolla: `ssh-keygen`. </br>
+Kun olin luonut avaimen, avasin sen micro-tekstieditorilla ja valitsin koko sisällön ja kopioin sen leikepöydälle, josta se oli helppo siirtää GitHubiin. </br>
+Oli tärkeää muistaa valita oikea avain, eli ".pub" päätteinen, eli julkinen avain.</br>
+GitHubissa menin siis oman profiilini asetuksiin, josta löytyy "SSH and GPG keys" välilehti, jossa SSH-avaimen voi lisätä. </br>
+Nimesin avaimen repositoryn mukaan ja liitin aiemmin micro-tekstieditorilla kopioimani sisällön avimeksi ja painoin lopuksi "Add SSH key" nappia.
 
+![Screenshot 2022-11-15 165145](https://user-images.githubusercontent.com/116954333/202200655-4bb8d7ad-4a62-4d29-8548-d15a21bad31f.png)
+
+Seuraavaksi avasin GitHub repositoryni ja menin kohtaan "Code" ja siinä välilehdelle "SSH". </br>
+Tekstikentässä näkyi oman repositoryni osoite, joten kopioin sen. </br>
+Sitten kloonasin kyseisen repositoryn Ubuntu vieruaalikoneeni terminaalissa komennolla: `git clone <repositoryn osoite>` </br>
+
+![Screenshot 2022-11-15 170034](https://user-images.githubusercontent.com/116954333/202199959-97b9c733-9c02-4e26-a233-af696a889439.png)
 
 
 
