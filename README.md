@@ -63,23 +63,12 @@ Sitten kloonasin kyseisen repositoryn Ubuntu vieruaalikoneeni terminaalissa kome
 
 ![Screenshot 2022-11-15 170034](https://user-images.githubusercontent.com/116954333/202199959-97b9c733-9c02-4e26-a233-af696a889439.png)
 
-Tämän viimeisen kappaleen tekstiä kirjoitin virtuaalikoneen terminaalista nano-tekstieditorilla. </br>
+Tämän kappaleen tekstiä kirjoitin virtuaalikoneen terminaalista nano-tekstieditorilla. </br>
 Käytin komentoa: `git add . && git commit ; git pull ; git push`, jotta sain muutokset tallennettua ja näkyviin.
 
+![Screenshot 2022-11-16 163937](https://user-images.githubusercontent.com/116954333/202210910-53135f4b-db92-467c-98c1-3e93ea44f3a6.png)
 
+Nyt kun tarkistin vielä repositoryyni tehdyt muutokset, siellä näkyi viimeisimpänä Ubuntu virtuaalikoneellani tekemäni muutokset ja tekijä oli virtuaalikoneella määrittämäni nimi eli "Julius Rissanen", eikä GitHub käyttäjänimeni "JRissanen".
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2022-11-16 164115](https://user-images.githubusercontent.com/116954333/202211550-aad3c3c1-6028-4102-8ad2-0ffb067b9f65.png)
 
