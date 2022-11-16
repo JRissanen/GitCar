@@ -63,7 +63,8 @@ Sitten kloonasin kyseisen repositoryn Ubuntu vieruaalikoneeni terminaalissa kome
 
 ![Screenshot 2022-11-15 170034](https://user-images.githubusercontent.com/116954333/202199959-97b9c733-9c02-4e26-a233-af696a889439.png)
 
-
+Tämän viimeisen kappaleen tekstiä kirjoitin virtuaalikoneen terminaalista nano-tekstieditorilla. </br>
+Käytin komentoa: `git add . && git commit ; git pull ; git push`, jotta sain muutokset tallennettua ja näkyviin.
 
 
 
